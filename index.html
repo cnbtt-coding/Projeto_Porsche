@@ -30,8 +30,8 @@
                 <h1>Porsche</h1>
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Products</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Login/Register</a></li>
                     </ul>
@@ -41,11 +41,10 @@
         <br>
         <main>
             <div class="container">
-                <div class="articles">
+                <div id="home">
                     <article>
                         <h2>Porsche Panamera 2015</h2>
                         <p>O Porsche Panamera é outro modelo que homenageia a Carrera Panamericana. Cayman: o caiman é um réptil da família dos jacarés e crocodilos que habita as Américas Central e do Sul.</p>
-                        <h3>R$359.000</h3>
                         <button submit>
                             RESERVE
                         </button>
@@ -55,8 +54,70 @@
                     </article>
                 </div>
             </div>
+            <br>
+            <div class="container">
+                <div id="products">
+                    <article>
+                        <img src="./media/panamera-white.png" alt="porsche panamera 2015 white">
+                        <h3>Porshe Panamera 2015 - White</h3>
+                        <p>3.6 V6 24V GASOLINA 4P AUTOMÁTICO</p>
+                        <button submit>
+                            COMPRAR
+                        </button>
+                    </article>
+                    <br>
+                    <article>
+                        <img src="./media/panamera-black.png" alt="porsche panamera 2010 black">
+                        <h3>Porshe Panamera 2010 - Red</h3>
+                        <p>4.8 S V8 GASOLINA 4P MANUAL</p>
+                        <button submit>
+                            COMPRAR
+                        </button>
+                    </article>
+                    <br>
+                    <article>
+                        <img src="./media/panamera-gray.png" alt="porsche panamera 2010 gray">
+                        <h3>Porshe Panamera 2010 - Black</h3>
+                        <p>4.8 S V8 GASOLINA 4P MANUAL</p>
+                        <button submit>
+                            COMPRAR
+                        </button>
+                    </article>
+                </div>
+            </div>
         </main>
-        <br>
+        <hr>
+        <div class="container">
+            <div id="contact">
+                <article>
+                    <h3>SOCIAL</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>COMPANY</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Goals</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Talk to us</h3>
+                    <div class="form">
+                        <input type="text" placeholder="First name">
+                        <input type="email" placeholder="E-mail" >
+                        <textarea placeholder="How can I help you?"></textarea required>
+                        <button submit>
+                            Send
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </div>
     </div>
     <footer>
         Porsche &copy; Todos os direitos reservados 2023
