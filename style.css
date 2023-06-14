@@ -184,7 +184,7 @@ main .container #products article h3 {
 }
 
 main .container #products article p {
-    color: gray;
+    color: orange;
     font-weight: normal;
     padding-bottom: 8px;
 }
