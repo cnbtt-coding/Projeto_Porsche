@@ -33,13 +33,13 @@ header .container li a {
     text-decoration: none;
     font-weight: bolder;
     color: white;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
 }
 
 header .container li a:hover {
-    background-color: goldenrod;
-    padding: 2px 6px;
-    border-radius: 20px;
-    transition: all .55s ease;
+    padding: 2px auto;
+    border-bottom: 2px solid white;
 }
 
 header .container h1 {
@@ -131,6 +131,7 @@ main .container #products article {
 main .container #products article:hover {
     background-color: rgba(255, 255, 255, 5%);
     cursor: pointer;
+    width: 310px;
 }
 
 main .container #products article img {
