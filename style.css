@@ -307,8 +307,75 @@ footer {
 
 body .frame {
     background-color: rgba(255, 255, 255, 10%);
-    margin: 60px 100px;
+    margin: 60px 115px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
+}
+
+/* Estilização da sidebar */
+
+body .sidebar .Panamera {
+    height: 50px;
+    position: fixed;
+    top: 180px;
+    left: 10px;
+} 
+
+body .sidebar .Cayman {
+    height: 50px;
+    position: fixed;
+    top: 280px;
+    left: 10px;
+}
+
+body .sidebar .Spyder {
+    height: 50px;
+    position: fixed;
+    top: 380px;
+    left: 10px;
+}
+
+body .sidebar .Macan {
+    height: 40px;
+    position: fixed;
+    top: 495px;
+    left: 10px;
+}
+
+body .sidebar .Macan:hover {
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(0px 0px 10px black);
+    height: 50px;
+}
+
+body .sidebar .Logo {
+    height: 50px;
+    position: fixed;
+    top: 50px;
+    left: 30px;
+}
+
+body .sidebar .Gradient {
+    height: 1000px;
+    width: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(0px 0px 10px black);
+} 
+
+body .sidebar .Gradient:hover {
+    height: 1000px;
+}
+
+body .sidebar img:hover {
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(0px 0px 10px black);
+    height: 62px;
+    transition: all .55s ease;
 }
