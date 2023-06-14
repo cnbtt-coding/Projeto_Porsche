@@ -56,6 +56,36 @@ header .container h1:hover {
     color: red;
 }
 
+/* Estilização da logo */
+
+main .container .division {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+main .container .logo img {
+    height: 70px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+main .container .line1 {
+    background-color: white;
+    height: 1px;
+    width: 500px;
+}
+
+main .container .line2 {
+    background-color: white;
+    height: 1px;
+    width: 500px;
+}
+
 /* Estilização do conteúdo principal */
 
 body {
@@ -66,7 +96,7 @@ body {
 
 main .container #home {
     display: flex;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-top: 70px;
 }
 
@@ -98,9 +128,13 @@ main .container #home article button {
     width: 200px;
     border-radius: 20px;
     background-color: goldenrod;
-    color: black;
     border: none;
     cursor: pointer;
+}
+
+main .container #home article button a {
+    text-decoration: none;
+    color: black;
 }
 
 main .container #home article button:hover {
@@ -115,6 +149,8 @@ main .container #products {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 main .container #products article {
