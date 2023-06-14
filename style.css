@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-weight: normal;
 }
 
 /* Estilização do Header/Cabeçalho */
@@ -127,6 +128,11 @@ main .container #products article {
     margin-bottom: 36px;
 }
 
+main .container #products article:hover {
+    background-color: rgba(255, 255, 255, 5%);
+    cursor: pointer;
+}
+
 main .container #products article img {
     height: 150px;
 }
@@ -140,6 +146,11 @@ main .container #products article h3 {
 main .container #products article p {
     color: gray;
     font-weight: normal;
+    padding-bottom: 8px;
+}
+
+main .container #products article h4 {
+    color: greenyellow;
 }
 
 main .container #products article button {
@@ -165,7 +176,7 @@ body .container #contact {
     max-width: 900px;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     padding: 64px 24px;
 }
@@ -251,6 +262,8 @@ footer {
     color: gainsboro;
     margin: 24px 50px;
 }
+
+/* Estilização do fundo interno */
 
 body .frame {
     background-color: rgba(255, 255, 255, 0.5%);
