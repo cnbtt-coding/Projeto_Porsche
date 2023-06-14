@@ -151,6 +151,7 @@ main .container #products {
     justify-content: space-between;
     padding-top: 64px;
     padding-bottom: 64px;
+    flex-wrap: wrap;
 }
 
 main .container #products article {
@@ -163,6 +164,7 @@ main .container #products article {
     justify-content: baseline;
     margin-bottom: 36px;
     transition: all .55s ease;
+    width: 30%;
 }
 
 main .container #products article:hover {
