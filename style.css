@@ -56,6 +56,8 @@ header .container h1:hover {
     color: red;
 }
 
+/* Estilização do front */
+
 /* Estilização da logo */
 
 main .container .division {
@@ -94,20 +96,44 @@ body {
     background-repeat: no-repeat;
 }
 
-main .container #home {
+main .container #panamera,
+main .container #cayman,
+main .container #spyder,
+main .container #macan {
     display: flex;
     padding-bottom: 50px;
     padding-top: 70px;
 }
 
-main .container #home article h2 {
-    font-family: 'Finger Paint', cursive;
-    font-weight: bold;
-    padding-bottom: 12px;
-    color: rgb(255, 88, 88);
+main .container #panamera article h2 {
+    color: whitesmoke
 }
 
-main .container #home article p {
+main .container #cayman article h2 {
+    color: rgb(177, 175, 175)
+}
+
+main .container #spyder article h2 {
+    color: white;
+}
+
+main .container #macan article h2 {
+    color: red;
+}
+
+main .container #panamera article h2,
+main .container #cayman article h2,
+main .container #spyder article h2,
+main .container #macan article h2 {
+    font-family: 'Goblin One', cursive;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+main .container #panamera article p,
+main .container #cayman article p,
+main .container #spyder article p,
+main .container #macan article p {
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
@@ -115,7 +141,10 @@ main .container #home article p {
     padding-bottom: 24px;
 }
 
-main .container #home article h3 {
+main .container #panamera article h3,
+main .container #cayman article h3,
+main .container #spyder article h3,
+main .container #macan article h3 {
     color: green;
     padding-top: 24px;
     padding-bottom: 12px;
@@ -123,7 +152,10 @@ main .container #home article h3 {
     font-family: sans-serif;
 }
 
-main .container #home article button {
+main .container #panamera article button,
+main .container #cayman article button,
+main .container #spyder article button,
+main .container #macan article button {
     height: 35px;
     width: 200px;
     border-radius: 20px;
@@ -132,12 +164,18 @@ main .container #home article button {
     cursor: pointer;
 }
 
-main .container #home article button a {
+main .container #panamera article button a,
+main .container #cayman article button a,
+main .container #spyder article button a,
+main .container #macan article button a {
     text-decoration: none;
     color: black;
 }
 
-main .container #home article button:hover {
+main .container #panamera article button:hover,
+main .container #cayman article button:hover,
+main .container #spyder article button:hover,
+main .container #macan article button:hover {
     background-color: rgb(248, 207, 103);
 }
 
@@ -337,17 +375,10 @@ body .sidebar .Spyder {
 }
 
 body .sidebar .Macan {
-    height: 40px;
+    height: 50px;
     position: fixed;
     top: 495px;
     left: 10px;
-}
-
-body .sidebar .Macan:hover {
-    filter: brightness(120%);
-    filter: contrast(120%);
-    filter: drop-shadow(0px 0px 10px black);
-    height: 50px;
 }
 
 body .sidebar .Logo {
