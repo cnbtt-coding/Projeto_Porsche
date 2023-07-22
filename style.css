@@ -128,19 +128,23 @@ main .container #macan {
 }
 
 main .container #panamera article h2 {
-    color: whitesmoke
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
 }
 
 main .container #cayman article h2 {
-    color: rgb(177, 175, 175)
+    color: rgb(177, 175, 175);
+    text-shadow: 0px 0px 10px black;
 }
 
 main .container #spyder article h2 {
     color: white;
+    text-shadow: 0px 0px 10px black;
 }
 
 main .container #macan article h2 {
     color: red;
+    text-shadow: 0px 0px 10px black;
 }
 
 main .container #panamera article h2,
@@ -230,7 +234,7 @@ main .container #products article {
 main .container #products article:hover {
     background-color: rgba(255, 255, 255, 5%);
     cursor: pointer;
-    width: 310px;
+    scale: 1.05;
 }
 
 main .container #products article img {
@@ -262,12 +266,12 @@ main .container #products article button {
     background-color: goldenrod;
     color: black;
     cursor: pointer;
+    transition: all .55s ease;
 }
 
 main .container #products article button:hover {
     background-color: rgb(248, 207, 103);
-    height: 32px;
-    width: 125px;
+    scale: 1.05;
 }
 
 /* Configuração da seção de contato */
